@@ -107,27 +107,19 @@ The following processes take place when a code change is pushed to the central v
     sudo apt-get update
     sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
     ```
-
 ![Docker-svc-check](https://github.com/SumitM01/CI-CD-using-Jenkins-Sonarqube-ECR-and-ECS/assets/65524561/612915ac-1db3-4135-ad77-5b916854f33d)
-
-
     - Add Jenkins user to Docker group using the following command
     ```bash
     chmod -a -G docker jenkins
     ```
-
-![add-jenkins-usr-docker](https://github.com/SumitM01/CI-CD-using-Jenkins-Sonarqube-ECR-and-ECS/assets/65524561/a2cb86e5-1c7f-417f-ab1d-0d99280ff5a2)
-
-    
+![add-jenkins-usr-docker](https://github.com/SumitM01/CI-CD-using-Jenkins-Sonarqube-ECR-and-ECS/assets/65524561/a2cb86e5-1c7f-417f-ab1d-0d99280ff5a2)    
     - Run the following command to install awscli:
     ```bash
     sudo apt-get upgrade
     sudo apt-get install awscli -y
     ```
 
-![aws-cli-installed](https://github.com/SumitM01/CI-CD-using-Jenkins-Sonarqube-ECR-and-ECS/assets/65524561/18e3ef1c-8683-4cd3-8044-a123d3cb8cb2)
-
-    
+![aws-cli-installed](https://github.com/SumitM01/CI-CD-using-Jenkins-Sonarqube-ECR-and-ECS/assets/65524561/18e3ef1c-8683-4cd3-8044-a123d3cb8cb2)    
     - Reboot the jenkins instance.
 
 ### AWS services setup
